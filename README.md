@@ -15,14 +15,13 @@ detail this information.
 
 positional arguments:
 - `timestamps_file`  Name of text file with timestamps, e.g.
-                     "timestamps_sample.txt". Each line lists the audio file
-                     followed by the start and stop times seperated by tabs,
-                     e.g. `audio_sample.wav HH:MM:SS HH:MM:SS`
-                     	   `audio_sample2.wav HH:MM:SS HH:MM:SS`
+  "timestamps_sample.txt". Each line lists the audio file
+  followed by the start and stop times seperated by tabs,
+  e.g. `audio_sample.wav HH:MM:SS HH:MM:SS`
 
 optional arguments:
 - `-h`, `--help`     show this help message and exit
 - `-i IN_DIR`        Directory containing audio and timestamp files. Default is
-                     current working directory.
+  current working directory.
 - `-o OUT_DIR`       Directory where cut .wav files will be exported. Default is
-                     current working directory.
+  current working directory.
